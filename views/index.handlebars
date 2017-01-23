@@ -1,1 +1,25 @@
-<h1>Eat Dat Burger!</h1>
+<header>
+	<h1>Eat Dat Burger!</h1>
+	<img src="assets/img/burger.png" alt="burger image" class="burger-img">
+</header>
+<section>
+	<div class="devour-section">
+		<div class="eat">
+			<ul>
+				{{#each burgers}}
+				<li>
+					{{this.burger_name}}
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+		<div class="eaten"></div>
+	</div>
+	<div class="add-section">
+		<form>
+			<textarea></textarea>
+			<br>
+			<input class="submit" type="button" value="submit"></button>
+		</form>
+	</div>
+</section>
