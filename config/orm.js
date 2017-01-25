@@ -50,7 +50,9 @@ var orm = {
 			callback(result);
 		});
 	},
+	
 	updateOne: function(table, colVal, condition, callback){
+		console.log(table, colVal, condition);
 		var queryString = "UPDATE " + table + " SET ";
 		queryString += objToSql(colVal);
 		queryString += " WHERE " + condition;
