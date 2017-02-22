@@ -8,5 +8,3 @@ CREATE TABLE burgers(
 	date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
 	PRIMARY KEY (id)
 );
-
-SELECT * FROM burgers_db.burgers;
