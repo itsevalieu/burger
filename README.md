@@ -1,4 +1,4 @@
-# Week 14: Burger Application
+# Burger Application
 Restaurant app that lets users input the names of burgers they'd like to eat. Burger logger!
 
 Technologies:
